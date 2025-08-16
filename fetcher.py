@@ -28,3 +28,7 @@ def get_pro_matches(n=10000, save_path=DATA_FILE):
     with open(save_path, "w") as f:
         json.dump(matches[:n], f)
     print(f"Saved {len(matches[:n])} matches to {save_path}")
+
+
+# Call the the fetch hehe
+get_pro_matches()
